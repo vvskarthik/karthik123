@@ -3,8 +3,8 @@
   tasks:
     -name: Launching ec2
       ec2:
-        key-name:karthik4
-        instance_type:t2.micro
-        image:ami-b63769a1
-        group:sg-2fdf9452
+        key-name: karthik4
+        instance_type: t2.micro
+        image: ami-b63769a1
+        group: sg-2fdf9452
         region: us-east-1
